@@ -1,0 +1,121 @@
+div.container .row #sprt1, div.container .row #sprt2, div.container .row #sprt3, div.container .row #sprt4, div.container .row #sprt5, div.container .row #sprt6, div.container .row #sprt7, div.container .row #sprt8 {
+  height: 40vh;
+  width: 65vh;
+  margin-bottom: 15px;
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: auto;
+  height: 360px;
+  display: block;
+  border-radius: 20px;
+  padding-top: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  line-height: 100px;
+  background-image: url(images/climbing-2264698_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title .heading1 {
+  border: 5px solid white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title .p1 {
+  font-family: cursive,Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-transform: capitalize;
+  font-size: x-large;
+  border: 5px solid transparent;
+}
+
+@media screen and (max-width: 985px) {
+  .title {
+    line-height: 40px;
+  }
+}
+
+div.container .sportname {
+  color: white;
+  border: 1px solid white;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 35px;
+  font-family: cursive, Cambria, Cochin, serif;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div.container .row .photo {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+div.container .row h3 {
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+div.container .row ol {
+  line-height: 35px;
+  color: darkgoldenrod;
+  font-size: 25px;
+  word-spacing: 4px;
+  text-transform: capitalize;
+  margin-left: 18px;
+}
+
+div.container .alert {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.footer {
+  height: 100px;
+  position: relative;
+}
+
+.footer .footer-bottom {
+  background-color: #343a40;
+  color: white;
+  height: 35px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 8px;
+  width: 100%;
+}
+
+ol li::-moz-selection {
+  color: red;
+  background-color: hotpink;
+}
+
+ol li::selection {
+  color: red;
+  background-color: hotpink;
+}
+/*# sourceMappingURL=sport.css.map */

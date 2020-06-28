@@ -1,0 +1,198 @@
+body{
+    background-color: black;
+}
+.title{
+    color: antiquewhite;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: auto;
+    height:auto;
+    display: block;
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    line-height: 100px;
+    background-image: url(images/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.heading1{
+    border: 5px solid white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p1{
+    font-family:  cursive,Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-transform: capitalize;
+    font-size: x-large;
+    
+    border:5px solid transparent;
+
+}
+@media screen and (max-width:985px){
+    .title{
+        line-height: 40px;
+    }
+}
+.skillhead{
+    word-spacing: 7px;
+    color: white;
+    border: 1px solid white;
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 32px;
+    font-family:cursive,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.skillhead:hover{
+    color: yellowgreen;
+    cursor: pointer;
+}
+#skl1{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/leonardo-toshiro-okubo-jBSTNenQxok-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl1def,#skl2def,#skl3def,#skl4def,#skl5def,#skl6def,#skl7def,#skl8def{
+    margin-bottom: 40px;
+    height:auto;
+    width: 350px;
+    padding-left: 30px;
+    padding-top: 5px;
+    border: 4px solid yellowgreen;
+    border-radius: 15px;
+
+}
+
+.container li{
+    list-style: square;
+    font-weight: normal;
+    font-size: 18px;
+    color: powderblue;
+}
+#skl2{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/angelo-pinheiro-oVhmUFHEXzQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl3{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/alex-knight-2EJCSULRwC8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl4{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/alp-allen-altiner-DfAJSNZEo5k-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl5{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl6{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl7{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+#skl8{
+    border-radius: 15px;
+    height:180px;
+    width: 350px;
+    background-image: url(images/jason-briscoe-HN_4K2diUWs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+    border: 4px solid yellowgreen;
+    margin-bottom: 40px;
+}
+.footer{
+    height:100px;
+    position: relative;
+}
+
+.footer .footer-bottom{
+    background-color: #343a40;
+    color: white;
+    height: 35px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 8px;
+    width: 100%;
+}
+
