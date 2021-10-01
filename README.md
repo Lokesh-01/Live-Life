@@ -1,5 +1,5 @@
-# CS50's Project0 Submission
-** Project Name:- Live Life **
+
+# Project Name:- Live Life 
 
 The project about living life to the fullest before dying and so in the project i have stated few things that eveyone must experience. 
 
